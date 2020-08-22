@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/row_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:id="@+id/iv_radioBtn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:padding="10dp"
+            android:background="@color/white"
+            android:src="@drawable/ic_radio_button_unchecked_black_24dp"/>
+        <RadioButton
+            android:visibility="gone"
+            android:id="@+id/Radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false">
+        </RadioButton>
+
+        <TextView
+            android:id="@+id/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:lines="1"
+
+            android:padding="3dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Hero, Red,US0987345"
+            android:textColor="@color/Black">
+
+        </TextView>
+        <ImageView
+            android:id="@+id/Image_delete"
+            android:src="@drawable/remove"
+            android:layout_gravity="end"
+            android:layout_width="20dp"
+            android:layout_height="20dp">
+
+        </ImageView>
+    </LinearLayout>
+    <View
+        android:layout_marginTop="10dp"
+        android:background="@color/text_color"
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp">
+
+    </View>
+
+</LinearLayout>

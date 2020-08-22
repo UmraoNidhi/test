@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+
+    <!-- SwitchDateTime style is independent, each element is optional-->
+    <!-- Year Precise -->
+    <style name="Theme.SwitchDateTime.DateLabelYear">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

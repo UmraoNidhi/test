@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ipark</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="no_internet_msg">Please check your internet connectivity!</string>
+    <string name="something_wrong">Something went wrong, please try again!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dollar_symbol">&#36;</string>
+    <string name="dailyMonthly_search_text">Search address, location or event</string>
+    <string name="airport_search_text">"Search airport name, code or city "</string>
+    <string name="forgot_desc_text">Enter your mobile number/ email id. We will send OTP back to you with reset password and confirmation OTP.</string>
+    <string-array name="auth_text">
+        <item>Authenticating.</item>
+        <item>Authenticating..</item>
+        <item>Authenticating...</item>
+    </string-array>
+</resources>
